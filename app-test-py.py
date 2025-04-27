@@ -101,7 +101,7 @@ if page == "Quiz":
         else:
             st.success("🎉 Félicitations ! Vous avez terminé le quiz.")
             st.stop()
-        st.write(f"Question {idx+1} sur {len(questions)}")
+        q = questions[idx]
         choice = st.radio("Votre réponse :", q['options'], key=f"opt_{idx}")
 
         if st.button("Valider", key=f"btn_val_{idx}"):
