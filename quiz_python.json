@@ -57,7 +57,7 @@
       }
     },
     {
-      "Complétez le code pour afficher la version de Python en cours :\nimport sys\nprint(sys.______)",
+      "question": "Complétez le code pour afficher la version de Python en cours :\nimport sys\nprint(sys.______)",
       "options": [
         "version",
         "ver",
