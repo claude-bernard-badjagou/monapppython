@@ -88,7 +88,7 @@ if page == "Quiz":
         st.session_state['index'] = 0
         st.session_state['score'] = 0
         st.session_state['answered'] = 0
-        st.experimental_rerun()
+        st.rerun()
 
     # Si quiz déjà démarré
     if 'questions' in st.session_state:
