@@ -15,8 +15,7 @@
       }
     },
     {
-      "question": "Complétez le code pour qu’il affiche 'Bonjour Python' : _____(\'Bonjour Python\')
-",
+     "question": "Complétez le code pour qu’il affiche \"Bonjour Python\" :\n_____('Bonjour Python')",
       "options": [
         "print()",
         "input()",
@@ -72,9 +71,7 @@
       }
     },
     {
-      "question": "Complétez le code pour afficher la version de Python en cours :\n
-python\nimport sys\nprint(sys.______)\n
-",
+      "Complétez le code pour afficher la version de Python en cours :\nimport sys\nprint(sys.______)",
       "options": [
         "version",
         "ver",
@@ -130,9 +127,7 @@ python\nimport sys\nprint(sys.______)\n
       }
     },
     {
-      "question": "Complétez pour utiliser l’aide intégrée sur la fonction `len` :\n
-python\nhelp(____)\n
-",
+      "question": "Complétez pour utiliser l’aide intégrée sur la fonction len :\nhelp(____)",
       "options": [
         "len",
         "list",
