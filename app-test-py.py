@@ -156,7 +156,7 @@ if page == "Quiz":
                     if st.button("Quitter"):
                         st.stop()
             else:
-                st.experimental_rerun()
+                st.rerun()
 
 # ---------- Page RESULTATS ----------
 elif page == "Résultats":
