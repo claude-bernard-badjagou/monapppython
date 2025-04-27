@@ -57,20 +57,6 @@
       }
     },
     {
-      "question": "Complétez : on lance l’interpréteur Python en ligne de commande avec `______`.",
-      "options": [
-        "python",
-        "pip",
-        "run python",
-        "execute"
-      ],
-      "answer_index": 0,
-      "feedback": {
-        "correct": "🎉 Bravo ! On tape simplement `python` (ou `python3`) pour démarrer le REPL Python.",
-        "incorrect": "🙂 Presque ! La bonne commande est `python` (ou `python3`) pour ouvrir l’interpréteur."
-      }
-    },
-    {
       "Complétez le code pour afficher la version de Python en cours :\nimport sys\nprint(sys.______)",
       "options": [
         "version",
