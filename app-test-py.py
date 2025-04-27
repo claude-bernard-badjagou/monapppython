@@ -96,7 +96,7 @@ if page == "Quiz":
         total = st.session_state['total']
         st.progress(idx / total)
         st.write(f"Question {idx+1} sur {total}")
-        if idx < len(st.session_state['questions']):
+        if idx >= len(st.session_state['questions']):
             q = st.session_state['questions'][idx]
         else:
             st.success("🎉 Félicitations ! Vous avez terminé le quiz.")
