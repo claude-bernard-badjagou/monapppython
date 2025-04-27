@@ -1,0 +1,223 @@
+{
+  "chapitre_1": [
+    {
+      "question": "Complétez : Python est un langage ________, open source et orienté objet.",
+      "options": [
+        "compilé",
+        "interprété",
+        "typé",
+        "statique"
+      ],
+      "answer_index": 1,
+      "feedback": {
+        "correct": "🎉 Bravo ! Python est un langage interprété, ce qui signifie que son code est exécuté ligne par ligne sans compilation préalable.",
+        "incorrect": "🙂 Bonne tentative ! La bonne réponse est « interprété », car Python est exécuté par un interpréteur ligne par ligne."
+      }
+    },
+    {
+      "question": "Complétez le code pour qu’il affiche “Bonjour Python” :\n
+python\n_____(\"Bonjour Python\")\n
+",
+      "options": [
+        "print()",
+        "input()",
+        "echo()",
+        "write()"
+      ],
+      "answer_index": 0,
+      "feedback": {
+        "correct": "🎉 Félicitations ! `print()` est la fonction native qui affiche du texte à l’écran en Python.",
+        "incorrect": "🙂 Essaie encore ! La bonne réponse est `print()`, car c’est la fonction utilisée pour afficher des messages."
+      }
+    },
+    {
+      "question": "Quelle est la bonne séquence d’étapes pour écrire et exécuter un script Python dans un IDE ?",
+      "options": [
+        "Exécuter le code → ouvrir l’IDE → créer un fichier → écrire → enregistrer",
+        "Ouvrir l’IDE → exécuter le code → enregistrer → écrire",
+        "Ouvrir l’IDE → créer un fichier .py → écrire le code → enregistrer → exécuter",
+        "Créer un fichier .py → exécuter → ouvrir l’IDE → écrire"
+      ],
+      "answer_index": 2,
+      "feedback": {
+        "correct": "👍 Exact ! Il faut d’abord ouvrir l’IDE, créer un fichier, écrire le code, enregistrer, puis exécuter le script.",
+        "incorrect": "🙂 Presque ! La bonne séquence est : ouvrir l’IDE → créer un fichier .py → écrire le code → enregistrer → exécuter."
+      }
+    },
+    {
+      "question": "Parmi ces affirmations concernant IDLE et VS Code, laquelle est vraie ?",
+      "options": [
+        "IDLE est livré avec Python et léger, VS Code est un IDE complet et extensible",
+        "VS Code est payant, IDLE est gratuit",
+        "IDLE supporte les extensions tierces, VS Code non",
+        "IDLE est conçu pour la Data Science, VS Code pour la robotique"
+      ],
+      "answer_index": 0,
+      "feedback": {
+        "correct": "👏 Exact ! IDLE est livré avec Python et reste très léger, alors que VS Code est un éditeur/IDE plus complet et extensible via des extensions.",
+        "incorrect": "🙂 Non ! La bonne réponse est : IDLE est livré avec Python et léger, VS Code est un IDE complet et extensible."
+      }
+    },
+    {
+      "question": "Complétez : on lance l’interpréteur Python en ligne de commande avec `______`.",
+      "options": [
+        "python",
+        "pip",
+        "run python",
+        "execute"
+      ],
+      "answer_index": 0,
+      "feedback": {
+        "correct": "🎉 Bravo ! On tape simplement `python` (ou `python3`) pour démarrer le REPL Python.",
+        "incorrect": "🙂 Presque ! La bonne commande est `python` (ou `python3`) pour ouvrir l’interpréteur."
+      }
+    },
+    {
+      "question": "Complétez le code pour afficher la version de Python en cours :\n
+python\nimport sys\nprint(sys.______)\n
+",
+      "options": [
+        "version",
+        "ver",
+        "version_info",
+        "python_version"
+      ],
+      "answer_index": 0,
+      "feedback": {
+        "correct": "🎉 Exact ! `sys.version` affiche la version complète de l’interpréteur Python.",
+        "incorrect": "🙂 Non, la bonne réponse est `version` : `sys.version` renvoie la version Python utilisée."
+      }
+    },
+    {
+      "question": "Quelle est la bonne séquence pour créer et exécuter un script sans IDE ?",
+      "options": [
+        "Exécuter `python script.py` → créer le fichier → écrire le code → enregistrer",
+        "Créer le fichier → écrire le code → enregistrer → exécuter `python script.py`",
+        "Écrire le code → exécuter → créer le fichier → enregistrer",
+        "Créer le fichier → exécuter → écrire le code → enregistrer"
+      ],
+      "answer_index": 1,
+      "feedback": {
+        "correct": "👍 Exact ! On crée d’abord le fichier, puis on écrit le code, on l’enregistre, et enfin on exécute `python script.py`.",
+        "incorrect": "🙂 Pas tout à fait : la bonne séquence est : créer le fichier → écrire le code → enregistrer → exécuter `python script.py`."
+      }
+    },
+    {
+      "question": "Concernant le typage : quelle affirmation est vraie ?",
+      "options": [
+        "Python est typé statiquement et C est typé dynamiquement",
+        "Python et C sont tous deux typés dynamiquement",
+        "Python est typé dynamiquement et C est typé statiquement",
+        "Python et C sont tous deux typés statiquement"
+      ],
+      "answer_index": 2,
+      "feedback": {
+        "correct": "👏 Correct : Python est à typage dynamique (types déterminés à l’exécution), tandis que C est à typage statique (types fixés à la compilation).",
+        "incorrect": "🙂 Non : Python est à typage dynamique et C à typage statique. Les types en Python sont déterminés à l'exécution."
+      }
+    },
+    {
+      "question": "Complétez : Python a été créé par ________ en 1991.",
+      "options": [
+        "Dennis Ritchie",
+        "Guido van Rossum",
+        "James Gosling",
+        "Bjarne Stroustrup"
+      ],
+      "answer_index": 1,
+      "feedback": {
+        "correct": "🎉 Exact ! Python a été créé par Guido van Rossum en 1991.",
+        "incorrect": "🙂 Presque ! C’est Guido van Rossum qui a conçu Python en 1991."
+      }
+    },
+    {
+      "question": "Complétez pour utiliser l’aide intégrée sur la fonction `len` :\n
+python\nhelp(____)\n
+",
+      "options": [
+        "len",
+        "list",
+        "print",
+        "sys"
+      ],
+      "answer_index": 0,
+      "feedback": {
+        "correct": "👍 Exact ! `help(len)` affiche la documentation de la fonction `len`.",
+        "incorrect": "🙂 Non, la bonne réponse est `len` : on appelle `help(len)` pour obtenir son aide."
+      }
+    },
+    {
+      "question": "Lequel des éléments suivants n’est **pas** un IDE ?",
+      "options": [
+        "VS Code",
+        "Thonny",
+        "PyCharm",
+        "Sublime Text"
+      ],
+      "answer_index": 3,
+      "feedback": {
+        "correct": "👏 Bravo ! Sublime Text est un éditeur de texte, pas un IDE complet.",
+        "incorrect": "🙂 Pas tout à fait : la bonne réponse est Sublime Text, qui est un éditeur de texte, contrairement aux autres qui sont des IDE."
+      }
+    }
+  ],
+
+"chapitre_2": [
+    {
+      "question": "Quel mot-clé permet de définir une fonction en Python ?",
+      "options": [
+        "def",
+        "func",
+        "function",
+        "lambda"
+      ],
+      "answer_index": 0,
+      "feedback": {
+        "correct": "🎉 Bravo ! On utilise `def` pour définir une fonction en Python.",
+        "incorrect": "🙂 Presque ! Le mot-clé correct est `def` pour définir une fonction."
+      }
+    },
+    {
+      "question": "Que renvoie une fonction si aucune instruction `return` n’est précisée ?",
+      "options": [
+        "0",
+        "False",
+        "None",
+        "Erreur"
+      ],
+      "answer_index": 2,
+      "feedback": {
+        "correct": "👍 Exact ! Si aucune instruction `return` n’est indiquée, la fonction renvoie `None` par défaut.",
+        "incorrect": "🙂 Bonne tentative ! Par défaut, une fonction sans `return` explicite renvoie `None`."
+      }
+    },
+    {
+      "question": "Comment appelle-t-on une fonction utilisée à l’intérieur d’elle-même ?",
+      "options": [
+        "Fonction interne",
+        "Fonction anonyme",
+        "Fonction récursive",
+        "Fonction globale"
+      ],
+      "answer_index": 2,
+      "feedback": {
+        "correct": "🎉 Exact ! Une fonction qui s’appelle elle-même est dite récursive.",
+        "incorrect": "🙂 Non, on parle de fonction récursive lorsqu'une fonction s'appelle elle-même."
+      }
+    },
+    {
+      "question": "Que fait l’instruction `return` dans une fonction ?",
+      "options": [
+        "Elle arrête la fonction et retourne une valeur",
+        "Elle imprime une valeur à l’écran",
+        "Elle passe à l’instruction suivante",
+        "Elle crée une nouvelle fonction"
+      ],
+      "answer_index": 0,
+      "feedback": {
+        "correct": "👏 Correct ! `return` interrompt la fonction et renvoie une valeur au programme appelant.",
+        "incorrect": "🙂 Attention ! `return` sert à arrêter une fonction et retourner une valeur."
+      }
+    }
+  ] 
+}
