@@ -6,7 +6,7 @@ from datetime import datetime
 st.set_page_config(page_title="Quiz Python", layout="centered")
 
 # ---------- Fonctions utilitaires ----------
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def load_questions(filepath="quiz_python.json"):
     """Charge les questions depuis le fichier JSON."""
     with open(filepath, "r", encoding="utf-8") as f:
