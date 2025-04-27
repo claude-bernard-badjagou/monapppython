@@ -8,9 +8,13 @@ st.set_page_config(page_title="Quiz Python", layout="centered")
 # ---------- Fonctions utilitaires ----------
 @st.cache_data
 def load_questions(filepath="quiz_python.json"):
-    """Charge les questions depuis le fichier JSON."""
-    with open(filepath, "r", encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        # Affiche l’erreur complète (message, ligne, colonne) dans l’UI
+        st.error(f"❌ JSONDecodeError: {e.msg} (ligne {e.lineno}, colonne {e.colno})")
+        st.stop()
 
 
 def load_results(filepath="results.json"):
